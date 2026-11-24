@@ -1,0 +1,14 @@
+{
+ "condicao": "claudemd",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 11.1,
+ "erro": false,
+ "custo_estimado_usd": 0.0139038,
+ "turnos": 1,
+ "tokens_entrada": 31500,
+ "tokens_saida": 1075,
+ "arquivos_novos": [],
+ "resposta": "**REELS: A IA se recusou? Talvez a culpa não seja sua**\n*Duração: ~55 s · ~140 palavras faladas*\n\n| Tempo | Fala (olhando para a câmera) | Na tela |\n|---|---|---|\n| 0–4 s | **\"A IA se recusou a escrever seu texto de venda? Ou a mexer num arquivo seu? A culpa não é sua.\"** | Texto grande: \"A IA RECUSOU? NÃO É VOCÊ\" |\n| 4–14 s | \"Muita gente acha que pediu errado. Mas várias dessas recusas são a empresa se protegendo. Ela precisa seguir leis da Europa e dos EUA. Então a trava vem de fábrica, mesmo num pedido normal.\" | Corte rápido: bandeira da UE e dos EUA, depois um cadeado sobre o chat |\n| 14–26 s | \"Tem saída. Primeira: transformar a regra em código. Em vez de pedir com jeitinho, você escreve o que pode e o que não pode, e o sistema cumpre. Segunda: usar um modelo aberto, que roda do seu jeito e sob a sua regra.\" | Dois cartões aparecem em sequência: \"1. REGRA VIRA CÓDIGO\" e \"2. MODELO ABERTO\" |\n| 26–40 s | \"Agora o ponto que quase ninguém olha. Você escreveu um monte de instruções no Claude. Mas testou se elas ajudam ou atrapalham? Quase ninguém testa. Às vezes a instrução que você achou ótima é justamente o que piora o resultado.\" | Mostrar um arquivo de instruções longo. Um \"?\" vermelho pisca em cima |\n| 40–50 s | \"Teste simples: rode a mesma tarefa com as instruções e sem elas. Compare. Se não melhorou, apague.\" | Tela dividida: \"COM\" × \"SEM\" |\n| 50–58 s | **\"Você já testou as suas instruções, ou só confiou que funcionam? Conta aqui nos comentários.\"** | Texto: \"VOCÊ JÁ TESTOU?\" |\n\n**Notas de gravação**\n- Tom de conversa, sem ler. Pausa curta depois de \"A culpa não é sua\".\n- Legenda queimada em todas as falas.\n- Se passar de 60 s, corte a frase \"Às vezes a instrução que você achou ótima…\".\n- Na fala de 4–14 s, o \"várias\" é de propósito. Não diga \"todas\", porque nem toda recusa vem de lei.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/claudemd-2"
+}

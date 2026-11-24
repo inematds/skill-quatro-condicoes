@@ -1,0 +1,14 @@
+{
+ "condicao": "claudemd",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 10.1,
+ "erro": false,
+ "custo_estimado_usd": 0.0131438,
+ "turnos": 1,
+ "tokens_entrada": 31500,
+ "tokens_saida": 999,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels (~55 s)\n\n**Título interno:** Por que a IA se recusa a fazer coisa normal\n\n| Tempo | Fala | Na tela |\n|---|---|---|\n| 0–4 s | **\"Você já pediu um texto de venda pra IA e ela se recusou? Ou ela não quis mexer num arquivo que é seu?\"** | Rosto em close. Texto grande: \"A IA disse não\" |\n| 4–12 s | \"Aí você pensa: o erro foi meu. Mas, muitas vezes, não foi.\" | Corte seco. Texto: \"Nem sempre a culpa é sua\" |\n| 12–24 s | \"Boa parte dessas recusas vem da empresa que fez a IA. Ela se protege de lei da Europa e dos Estados Unidos. Então a IA recusa até coisa normal, por precaução.\" | Dois ícones: bandeira da Europa e dos EUA → cadeado sobre o chat |\n| 24–36 s | \"Dá pra contornar. Você pode transformar a regra em código, que faz o que você mandou, sem depender do humor do modelo. Ou usar um modelo aberto, em que as regras são suas.\" | Passo 1: \"Regra → código\". Passo 2: \"Modelo aberto\" |\n| 36–48 s | \"E tem um segundo erro, mais comum. Você escreveu um monte de instrução no Claude. Mas você testou se ela ajuda ou atrapalha? Quase ninguém testa.\" | Tela com um CLAUDE.md enorme. Carimbo vermelho: \"Nunca testado\" |\n| 48–55 s | \"Teste a mesma tarefa com a instrução e sem ela. Se não melhorou, apaga. **Qual instrução sua você nunca testou?** Conta aqui nos comentários. Tem conteúdo grátis no inema.club, direto na internet.\" | Texto: \"Com × Sem instrução\". Logo inema.club |\n\n## Notas de gravação\n- Tom de conversa, olhando para a câmera. Corte a cada 2 a 3 segundos, como nos Reels do INEMA.\n- Dá para cortar o trecho das leis (12–24 s) se passar de 60 s ao gravar.\n- A afirmação sobre as leis é \"muitas vezes\", não \"sempre\". Se quiser reforçar, cite um caso concreto na tela.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/claudemd-1"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "skill",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 12.0,
+ "erro": false,
+ "custo_estimado_usd": 0.0140768,
+ "turnos": 1,
+ "tokens_entrada": 17930,
+ "tokens_saida": 1228,
+ "arquivos_novos": [],
+ "resposta": "## IA SE RECUSOU? NÃO É CULPA SUA\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-55s\n\n**[0-3s]** A IA recusou um pedido normal... e você achou que errou?\n\n**[3-20s]**\nTexto de venda. Mexer num arquivo seu.\nCoisa comum de trabalho.\nE ela trava.\nVocê reescreve o pedido e tenta de novo.\nMas muitas vezes o problema não é o seu prompt.\nÉ uma regra da empresa que fez o modelo.\n\n**[20-40s]**\nEssas empresas respondem a leis.\nNa Europa... nos Estados Unidos.\nEntão o modelo vem com freio de fábrica.\nÀs vezes o freio pesa demais.\nQuando isso trava o seu trabalho, você tem saída.\nEscreva a regra que importa no seu código.\nOu use um modelo aberto, que você controla.\nMas isso só funciona se você souber ler a documentação.\n\n**[40-55s]**\nÚltima coisa... e esta incomoda.\nVocê escreveu instruções no Claude.\nJá testou se elas ajudam?\nOu se atrapalham?\nQuase ninguém testa.\nTesta uma vez... e compara.\nQuarenta anos em tecnologia me ensinaram isto:\no que você não mede... você só supõe.\n\n---\n\n**Correção feita:** a ideia dizia que \"muitas vezes\" a recusa vem de leis da Europa e dos EUA. Não dá para afirmar isso em geral. As recusas também vêm de política de segurança e de treinamento da empresa. No roteiro, usei \"responde a leis\" e \"regra da empresa\", sem cravar a causa de cada caso.\n\n**Ideia reservada:** \"Teste suas instruções do Claude\" pode virar um vídeo próprio de valor direto. O vídeo mostraria rodar a mesma tarefa com e sem as instruções e comparar.\n\n**Visual:** tela do Claude recusando um pedido simples. Depois, corte para o terminal com um modelo aberto respondendo ao mesmo pedido.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/skill-1"
+}

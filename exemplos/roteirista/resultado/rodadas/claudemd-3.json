@@ -1,0 +1,14 @@
+{
+ "condicao": "claudemd",
+ "rep": 3,
+ "codigo": 0,
+ "segundos": 10.9,
+ "erro": false,
+ "custo_estimado_usd": 0.0260896,
+ "turnos": 1,
+ "tokens_entrada": 31500,
+ "tokens_saida": 1115,
+ "arquivos_novos": [],
+ "resposta": "# Reels (55 s): \"Por que a IA recusou algo normal?\"\n\n**Gancho (0–4 s)**\n- **Fala:** \"A IA se recusou a escrever seu texto de venda? Talvez a culpa não seja sua.\"\n- **Tela:** Rosto em close. Texto grande: \"A IA RECUSOU. A CULPA É SUA?\"\n\n**Dor (4–14 s)**\n- **Fala:** \"Você pede uma coisa normal, como um texto de venda ou mexer num arquivo seu. A IA enrola ou diz que não pode. Aí você pensa que pediu errado.\"\n- **Tela:** Captura de uma recusa, com o texto borrado. Corte rápido para você de braços abertos.\n\n**Virada (14–27 s)**\n- **Fala:** \"Só que parte dessas recusas vem da empresa. As grandes se protegem de leis da Europa e dos Estados Unidos, e o filtro sobra pra você. É regra de proteção da empresa, não um defeito seu.\"\n- **Tela:** Dois ícones, bandeira da UE e bandeira dos EUA, apontando para um cadeado em cima do chat.\n\n**Saída (27–42 s)**\n- **Fala:** \"Dá pra contornar de forma legítima. Primeiro: passe a regra pra código, em vez de depender do humor da IA. Segundo: use um modelo aberto, que roda do seu jeito, na sua máquina.\"\n- **Tela:** Dois cards entrando em sequência: \"1. REGRA VIRA CÓDIGO\" e \"2. MODELO ABERTO\".\n\n**Segundo golpe (42–51 s)**\n- **Fala:** \"E tem mais: ninguém testa as instruções que coloca no Claude. Elas ajudam ou atrapalham? Quase ninguém mediu.\"\n- **Tela:** Arquivo de instruções aberto. Carimbo vermelho: \"TESTADO?\"\n\n**CTA (51–58 s)**\n- **Fala:** \"Você já testou se as suas instruções ajudam ou atrapalham? Me conta nos comentários. O método é grátis no inema.club, direto na internet.\"\n- **Tela:** Logo inema.club, com a pergunta em texto grande.\n\n**Notas de gravação**\n- Fale rápido e direto, sem pausa longa. São cerca de 140 palavras.\n- Troque o corte a cada 2 a 3 segundos e mantenha o zoom em no máximo 1,25×.\n- Na virada, diga \"parte das recusas\". Não afirme que toda recusa vem de lei.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/claudemd-3"
+}

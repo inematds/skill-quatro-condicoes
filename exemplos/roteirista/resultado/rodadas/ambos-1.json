@@ -1,0 +1,14 @@
+{
+ "condicao": "ambos",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 10.6,
+ "erro": false,
+ "custo_estimado_usd": 0.0136448,
+ "turnos": 1,
+ "tokens_entrada": 34210,
+ "tokens_saida": 1022,
+ "arquivos_novos": [],
+ "resposta": "## A IA se recusou. A culpa não é sua.\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-50s\n\n**[0-3s]** (olhando para a câmera, seco)\nA IA recusou seu pedido... e você achou que errou?\n\n**[3-20s]**\nVocê pediu um texto de venda.\nOu pediu pra mexer num arquivo seu.\nCoisa normal.\nA IA disse não.\nE você foi ajustar o prompt... achando que era culpa sua.\nMuitas vezes, não é.\nMuitas vezes é a empresa se protegendo.\nDe lei da Europa. De lei dos Estados Unidos.\n\n**[20-40s]**\nEu tenho 40 anos em tecnologia.\nSei reconhecer quando é regra de quem fez o produto... e não limite da tecnologia.\nE regra se contorna do jeito certo.\nPrimeiro: passe a regra pra código. Aquilo que precisa ser sempre igual, o código faz. Não depende do humor da IA.\nSegundo: use um modelo aberto. Aí as regras são suas.\n\n**[40-50s]**\nEntão, da próxima vez que a IA recusar algo normal... pare.\nPergunte: \"isso é limite meu... ou regra da empresa?\"\nQuem sabe essa diferença... para de culpar a si mesmo.\n\n**Visual:** abra com a tela de uma recusa de IA em destaque. Corte para o terminal com um trecho de código que aplica uma regra. Termine na câmera, sem texto.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/ambos-1"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "skill",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 12.4,
+ "erro": false,
+ "custo_estimado_usd": 0.0140668,
+ "turnos": 1,
+ "tokens_entrada": 17930,
+ "tokens_saida": 1227,
+ "arquivos_novos": [],
+ "resposta": "## Recusa da IA: a culpa nem sempre é sua\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 40-60s\n\n**[0-3s]** A IA se recusou a te ajudar?... Nem sempre a culpa é sua.\n\n**[3-20s]** Você pediu um texto de venda.\nOu pediu pra mexer num arquivo seu.\nCoisa normal... e ela recusou.\nAí você pensa: \"Escrevi o pedido errado.\"\nÀs vezes, não.\nMuitas empresas de IA se protegem... de processo, de regulação.\nLei da Europa. Lei dos Estados Unidos.\nO modelo vem treinado pra errar pro lado da cautela.\n\n**[20-40s]** Eu tenho 40 anos em tecnologia.\nE aprendi: quem não entende a regra... acha que o erro é dele.\nExistem dois caminhos.\nPrimeiro: regra que precisa ser cumprida sempre... vai pra código.\nNão fica só num pedido educado pro modelo.\nSegundo: modelo aberto.\nVocê roda por conta própria... e as regras são suas.\nMas tem um terceiro ponto, que quase ninguém faz.\n\n**[40-55s]** Ninguém testa as instruções que colocou no Claude.\nVocê escreveu... achou que ajudava.\nMas nunca comparou com e sem.\nÀs vezes a sua instrução é justamente o que atrapalha.\nTeste. Compare. Leia o resultado.\nFundamento vence ferramenta.\n\n---\n\n**Correções feitas:**\n- \"Muitas vezes é a empresa se protegendo\" virou \"às vezes\". Não dá pra afirmar a frequência, e as recusas também vêm do treinamento do modelo. Por isso o roteiro diz \"muitas empresas se protegem\" e \"treinado pra errar pro lado da cautela\", sem citar lei específica nem número.\n- Autoridade ajustada pra \"40 anos em tecnologia\".\n\n**Visual:** Mostre na tela uma recusa real da IA. Depois mostre uma regra simples em código, e por último dois resultados lado a lado, com e sem a instrução.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/skill-2"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "ambos",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 11.3,
+ "erro": false,
+ "custo_estimado_usd": 0.0140748,
+ "turnos": 1,
+ "tokens_entrada": 34210,
+ "tokens_saida": 1065,
+ "arquivos_novos": [],
+ "resposta": "## A IA RECUSOU. A CULPA NÃO É SUA.\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-55s\n\n**[0-3s]** (GANCHO, olhando direto para a câmera)\nA IA se recusou a fazer uma coisa normal... e você achou que errou.\n\n**[3-20s]**\nUm texto de venda. Mexer num arquivo seu.\nEla trava. Você reescreve o pedido.\nPede de novo, de outro jeito... e se culpa.\nMas muitas vezes o erro não é seu.\nQuem fez a IA tem leis para cumprir.\nEuropa. Estados Unidos.\nEntão a empresa se protege... e a recusa vem de fábrica.\n\n**[20-40s]**\nIsso muda o jeito de resolver.\nSe a regra vem do modelo, você não ganha discutindo com ele.\nTem dois caminhos.\nUm: tirar a regra do modelo e passar para o código.\nQuem decide o que pode ou não pode é o seu programa.\nDois: usar um modelo aberto.\nVocê roda do seu jeito, com as suas regras.\nEm vez de implorar para a IA, você escolhe onde a regra mora.\n\n**[40-52s]** (fechamento em provocação, sem CTA)\nIsso vale também para o que você escreveu no Claude.\nAquelas instruções que você colocou lá.\nVocê já testou se elas ajudam... ou atrapalham?\nSe nunca testou... você está só torcendo para dar certo.\n\n**Visual (b-roll):** Nei em plano médio. Corte para o terminal com um pedido recusado, depois um trecho de código com a regra escrita em `if`. Texto na tela: \"QUEM DECIDE A REGRA?\"",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/ambos-2"
+}

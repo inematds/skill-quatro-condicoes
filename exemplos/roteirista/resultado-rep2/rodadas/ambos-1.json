@@ -1,0 +1,14 @@
+{
+ "condicao": "ambos",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 10.4,
+ "erro": false,
+ "custo_estimado_usd": 0.1064799,
+ "turnos": 1,
+ "tokens_entrada": 34210,
+ "tokens_saida": 1020,
+ "arquivos_novos": [],
+ "resposta": "## A IA recusou. A culpa nem sempre é sua.\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-55s\n\n**[0-3s]** A IA se recusou a fazer algo normal... e você achou que a culpa era sua?\n\n**[3-20s]**\nUm texto de venda. Mexer num arquivo seu.\nCoisa comum. E ela trava.\nMuitas vezes... não é o seu pedido.\nÉ a empresa se protegendo.\nLeis da Europa. Leis dos Estados Unidos.\nNa dúvida, o modelo recusa.\n\n**[20-40s]**\nEu tenho 40 anos em tecnologia.\nE aprendi: quando o sistema bloqueia, você olha a regra.\nPrimeiro: dá pra passar a regra para código.\nO que é regra fixa não precisa depender do humor do modelo.\nSegundo: dá pra usar um modelo aberto.\nAí você controla o que ele faz.\n\n**[40-50s]**\nE antes de culpar a IA... teste.\nQuase ninguém testa se as instruções que colocou no Claude ajudam... ou atrapalham.\nÀs vezes o bloqueio está no seu próprio texto.\n\n**Visual (b-roll):** Nei em plano médio; tela dividida com um pedido recusado no terminal de um lado e o mesmo pedido rodando via código ou modelo aberto do outro.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/ambos-1"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "nada",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 10.2,
+ "erro": false,
+ "custo_estimado_usd": 0.030583,
+ "turnos": 1,
+ "tokens_entrada": 15252,
+ "tokens_saida": 1010,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels: \"Não é você, é a regra\" (≈55s)\n\n**Gancho (0–4s)**\n🎥 Close no rosto, olhar direto.\n🗣️ \"A IA se recusou a escrever seu texto de venda? Talvez a culpa não seja sua.\"\n📝 Texto na tela: *A IA te negou. Por quê?*\n\n**Problema (4–15s)**\n🎥 Corte para tela de chat com uma recusa.\n🗣️ \"Você pede uma coisa normal, como um texto de venda ou mexer num arquivo seu, e a IA enrola ou recusa. Aí você pensa: 'devo ter pedido errado'.\"\n📝 Texto na tela: *\"Não posso ajudar com isso.\"*\n\n**Virada (15–27s)**\n🎥 Volta ao rosto. Gesto de \"bastidores\".\n🗣️ \"Só que muitas vezes a recusa não vem de você nem do seu pedido. A empresa que faz a IA também está se protegendo de leis da Europa e dos Estados Unidos. Na dúvida, ela trava.\"\n📝 Texto na tela: *Regra da empresa ≠ erro seu*\n\n**Solução (27–40s)**\n🎥 Mostre um código ou terminal na tela, mesmo que seja só um exemplo.\n🗣️ \"Tem saída. Se a regra é de verdade, você pode passar essa regra para código, que faz a checagem e deixa a IA só escrever. Ou pode usar um modelo aberto, que roda onde você quiser, com as regras que você definir.\"\n📝 Texto na tela: *1. Regra em código · 2. Modelo aberto*\n\n**Segundo golpe (40–50s)**\n🎥 Rosto, tom de confidência.\n🗣️ \"E uma pergunta que quase ninguém faz: as instruções que você colocou no Claude estão ajudando ou atrapalhando? Quase ninguém testa. Compare com e sem elas. Você pode se surpreender.\"\n📝 Texto na tela: *Testou suas instruções? Compare com e sem.*\n\n**Fechamento (50–55s)**\n🎥 Close, sorriso.\n🗣️ \"Antes de culpar você mesmo, teste. Segue para mais dicas de IA.\"\n📝 Texto na tela: *Segue pra mais*\n\n---\n**Notas de gravação:** fale rápido, com cortes secos a cada frase. Legenda queimada o tempo todo. Se quiser reforçar o ponto das leis, cite um exemplo concreto seu, em vez de afirmar de forma genérica.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/nada-1"
+}

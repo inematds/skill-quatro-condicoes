@@ -1,0 +1,14 @@
+{
+ "condicao": "claudemd",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 12.6,
+ "erro": false,
+ "custo_estimado_usd": 0.0254796,
+ "turnos": 1,
+ "tokens_entrada": 31500,
+ "tokens_saida": 1054,
+ "arquivos_novos": [],
+ "resposta": "# Reels: \"A IA se recusou? Nem sempre a culpa é sua\"\n\n**Duração:** ~55 s. **Formato:** você falando para a câmera, com texto grande na tela.\n\n| Tempo | Fala | Na tela |\n|---|---|---|\n| 0–4 s | \"A IA recusou um texto de venda seu? Ou se negou a mexer num arquivo SEU? Você não fez nada de errado.\" | Texto: **\"A IA recusou. A culpa é sua?\"** |\n| 4–14 s | \"A gente acha que o pedido estava ruim. Mas muitas vezes a recusa não é sobre você. É a empresa se protegendo de lei da Europa e dos Estados Unidos. A regra vem do jurídico, não do seu pedido.\" | Texto: **\"Muitas vezes é proteção jurídica da empresa\"** |\n| 14–19 s | \"E tem saída.\" | Corte seco, texto: **\"2 saídas\"** |\n| 19–29 s | \"Primeira: passe a regra para código. O que precisa ser sempre igual, como um limite, uma checagem ou um formato, deixe num script e não num pedido educado ao modelo. Código não negocia nem esquece.\" | Texto: **\"1. Regra no código, não no prompt\"** |\n| 29–37 s | \"Segunda: use um modelo aberto. Ele roda na sua máquina, com as suas regras.\" | Texto: **\"2. Modelo aberto, regras suas\"** |\n| 37–50 s | \"E olha a parte que ninguém faz. Você escreveu um monte de instruções no seu Claude. Alguém testou se elas ajudam? Ou se atrapalham? Teste com e sem. Muita instrução só deixa o resultado pior.\" | Texto: **\"Testou as suas instruções?\"**, depois **\"Com × Sem\"** |\n| 50–58 s | \"Então, da próxima vez que a IA recusar algo normal, não pergunte o que você fez de errado. Pergunte de quem é essa regra. Segue para mais.\" | Texto: **\"De quem é essa regra?\"** + @ |\n\n**Legenda sugerida:** A IA recusou algo normal? Antes de culpar seu pedido, descubra de quem é a regra. 👇 Qual recusa mais te irritou?\n\n**Notas de gravação:**\n- Fale rápido, mas pause meio segundo antes de \"E tem saída\".\n- Use corte seco a cada frase. Não deixe mais de 3 s no mesmo plano.\n- Se quiser reforçar a afirmação sobre leis, mostre na tela o nome da lei (por exemplo, a lei de IA da União Europeia) como fonte. Assim a frase \"muitas vezes\" fica verificável.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/claudemd-2"
+}

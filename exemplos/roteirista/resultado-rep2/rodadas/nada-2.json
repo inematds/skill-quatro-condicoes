@@ -1,0 +1,14 @@
+{
+ "condicao": "nada",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 9.7,
+ "erro": false,
+ "custo_estimado_usd": 0.029133,
+ "turnos": 1,
+ "tokens_entrada": 15212,
+ "tokens_saida": 881,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels (~55s)\n\n**Título/legenda:** Sua IA te recusou? Talvez a culpa não seja sua.\n\n---\n\n**[0–4s] GANCHO** *(olhando pra câmera, texto grande na tela: \"A IA RECUSOU?\")*\n\"Pediu um texto de venda pra IA e ela se recusou? Calma, você provavelmente não fez nada de errado.\"\n\n**[4–18s] O PROBLEMA** *(corte rápido, texto: \"NÃO É VOCÊ\")*\n\"Muita gente acha que errou no pedido. Mas, muitas vezes, a recusa vem da empresa se protegendo de leis da Europa e dos EUA. Ela prefere recusar demais a correr risco jurídico. Aí sobra pra você: um texto de venda comum, ou mexer num arquivo seu, e a IA trava.\"\n\n**[18–32s] A SAÍDA** *(texto na tela: \"1. REGRA EM CÓDIGO / 2. MODELO ABERTO\")*\n\"Tem dois caminhos. Um: tirar a regra da conversa e passar pra código. Código executa a regra do jeito que você escreveu, sem 'achismo' do modelo. Dois: usar um modelo aberto, que roda sob o seu controle e com as suas regras.\"\n\n**[32–48s] A VIRADA** *(aproxima da câmera, tom de confidência)*\n\"E tem uma coisa que quase ninguém faz: testar as instruções que colocou no Claude. Você escreveu um monte de regra no prompt, mas já medeu se ela ajuda ou atrapalha? Rode com e sem a instrução e compare. Às vezes ela é justamente o que está travando.\"\n\n**[48–58s] FECHAMENTO / CTA** *(texto: \"TESTE. NÃO ACHE.\")*\n\"Então, antes de culpar você ou a IA: teste. Salva esse vídeo e manda pra quem vive brigando com a IA.\"\n\n---\n\n**Notas de gravação:** fale rápido e natural, com cortes secos a cada frase. Não afirme que *toda* recusa é por lei. Mantenha o \"muitas vezes\", porque é o que deixa o vídeo honesto.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/nada-2"
+}

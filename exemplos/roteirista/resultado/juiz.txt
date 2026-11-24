@@ -1,0 +1,68 @@
+{
+  "notas": {
+    "A": {
+      "nota": 7,
+      "motivo": "Abre falando com o público e fecha com uma pergunta genuína para os comentários e a menção ao inema.club como grátis, mas mistura duas teses e reserva só sete segundos para um fecho longo."
+    },
+    "B": {
+      "nota": 4,
+      "motivo": "Apresenta uma dor concreta, mas divide o foco, exige fala acelerada, omite o inema.club e pede a palavra «TESTE» em troca de um envio cuja entrega não está estabelecida."
+    },
+    "C": {
+      "nota": 5,
+      "motivo": "Tem gancho direto em três segundos e duração plausível, mas introduz uma segunda tese, atribui ao narrador 40 anos de experiência sem base no pedido e omite tanto o convite para comentar quanto o inema.club grátis."
+    },
+    "D": {
+      "nota": 7,
+      "motivo": "Tem gancho direto em três segundos, mantém uma tese e cabe no tempo, mas atribui ao narrador 40 anos de experiência sem base no pedido e termina sem convite para comentar nem menção ao inema.club grátis."
+    }
+  }
+}
+
+
+=====
+
+{
+  "notas": {
+    "A": {
+      "nota": 6,
+      "motivo": "Abre com uma dor concreta e termina com uma pergunta que convida a comentar, mas omite o inema.club grátis, muda de tese ao entrar nos testes do Claude e passa das 150 palavras de referência."
+    },
+    "B": {
+      "nota": 4.5,
+      "motivo": "O gancho é direto, mas o roteiro divide o foco entre recusas e testes de instruções, inclui uma credencial pessoal que o briefing não confirma e termina sem convite para comentar nem menção ao inema.club grátis."
+    },
+    "C": {
+      "nota": 4,
+      "motivo": "Fala com o espectador logo na abertura, mas dedica um bloco a uma segunda tese, pede para seguir no fechamento e usa na legenda a palavra-chave que o pedido proíbe, além de omitir o inema.club grátis."
+    },
+    "D": {
+      "nota": 5.5,
+      "motivo": "O gancho fala diretamente com quem já se culpou por uma recusa e a fala cabe no tempo previsto, mas o fechamento muda o foco para as instruções do Claude e, apesar da pergunta, não convida a comentar nem cita o inema.club grátis."
+    }
+  }
+}
+
+
+=====
+
+{
+  "notas": {
+    "A": {
+      "nota": 6,
+      "motivo": "O gancho é curto e o roteiro cabe em um minuto, mas a mudança para os testes no Claude divide a tese, os 40 anos de experiência não vieram do pedido e a pergunta final não convida explicitamente a comentar nem cita o inema.club."
+    },
+    "B": {
+      "nota": 5,
+      "motivo": "A primeira pergunta traz uma dor concreta e o fechamento convida a responder, mas o texto falado passa bem de 150 palavras, a revisão das instruções do Claude vira um segundo assunto e falta citar o inema.club."
+    },
+    "C": {
+      "nota": 5.5,
+      "motivo": "Tem um gancho direto e duração plausível, mas desenvolve o tema que diz ter reservado, acrescenta uma credencial sem base no pedido e termina com uma instrução, sem pergunta para comentar nem menção ao inema.club."
+    },
+    "D": {
+      "nota": 7.5,
+      "motivo": "O gancho traz uma dor concreta, a fala cabe em um minuto e o fechamento pede comentários e cita o inema.club como grátis, mas a pergunta final muda o foco das recusas para as instruções do Claude e o método anunciado fica indefinido."
+    }
+  }
+}

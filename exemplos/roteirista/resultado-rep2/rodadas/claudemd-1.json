@@ -1,0 +1,14 @@
+{
+ "condicao": "claudemd",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 9.9,
+ "erro": false,
+ "custo_estimado_usd": 0.09479989999999999,
+ "turnos": 1,
+ "tokens_entrada": 31500,
+ "tokens_saida": 936,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels: \"Sua IA se recusou?\" (~55 s)\n\n**Gancho (0–4 s)**\n- **Fala:** \"A IA se recusou a escrever seu texto de venda? A culpa pode não ser sua.\"\n- **Tela:** texto grande \"RECUSOU?\". Corte rápido para um print de recusa.\n\n**Problema (4–15 s)**\n- **Fala:** \"Você pediu uma coisa normal: um texto de venda, ou mexer num arquivo seu. A IA travou. Aí você acha que pediu errado.\"\n- **Tela:** você, de frente, balançando a cabeça. Legenda: \"Pedido normal. Recusa.\"\n\n**Virada (15–30 s)**\n- **Fala:** \"Muitas vezes não é você. É a empresa se protegendo de lei da Europa e dos Estados Unidos. A trava vem do risco jurídico dela, não do seu pedido.\"\n- **Tela:** dois ícones (bandeira UE, bandeira EUA) apontando para um cadeado em cima do chat.\n\n**Saída (30–42 s)**\n- **Fala:** \"Tem saída. Dá pra passar a regra para código, para ser o seu programa a decidir. Ou você usa um modelo aberto, em que a regra é sua.\"\n- **Tela:** lista aparecendo: \"1. Regra no código\" e \"2. Modelo aberto\".\n\n**Segundo alerta (42–52 s)**\n- **Fala:** \"E outra coisa: você colocou instruções no Claude. Já testou se elas ajudam ou atrapalham? Quase ninguém testa.\"\n- **Tela:** arquivo CLAUDE.md com \"?\" piscando. Legenda: \"Testou? Ou só acreditou?\"\n\n**Fechamento (52–60 s)**\n- **Fala:** \"Qual instrução sua você tem certeza que funciona? Conta nos comentários. Mais disso, grátis no inema.club, direto na internet.\"\n- **Tela:** logo inema.club.\n\n**Notas de gravação**\n- Tom: direto e calmo, sem drama.\n- Fale \"muitas vezes\", não \"sempre\". É o que sustenta a afirmação.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/claudemd-1"
+}

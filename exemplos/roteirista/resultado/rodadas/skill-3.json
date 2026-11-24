@@ -1,0 +1,14 @@
+{
+ "condicao": "skill",
+ "rep": 3,
+ "codigo": 0,
+ "segundos": 11.3,
+ "erro": false,
+ "custo_estimado_usd": 0.024454800000000002,
+ "turnos": 1,
+ "tokens_entrada": 17930,
+ "tokens_saida": 1088,
+ "arquivos_novos": [],
+ "resposta": "## IA RECUSOU? NEM SEMPRE A CULPA É SUA\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-50s\n\n**[0-3s]** A IA recusou… e você achou que errou?\n\n**[3-20s]**\nPediu um texto de venda… e ela recusou.\nPediu pra mexer num arquivo seu… recusou.\nCoisa normal. Trabalho de todo dia.\nE você pensou: \"o erro é meu.\"\nMuitas vezes… não é.\nEssas ferramentas vêm com regras de fábrica.\nA empresa define o que o modelo pode fazer.\nE ela precisa se proteger… de risco jurídico, de regulação, de processo.\nIsso vale pra Europa e pros EUA.\n\n**[20-40s]**\nEntão o limite nem sempre é técnico.\nÀs vezes é política da empresa.\nE você tem saída.\nPrimeiro: tirar a regra da conversa.\nPassar pra código… onde você controla o fluxo.\nSegundo: usar um modelo aberto.\nAí as regras são suas.\nMas tem outra coisa…\nVocê escreveu instruções no Claude, certo?\nJá testou se elas ajudam?\nOu se atrapalham?\nQuase ninguém testa.\n\n**[40-50s]**\nInstrução sem teste é palpite.\nCom 40 anos em tecnologia… eu aprendi isso.\nNão confie no que você nunca mediu.\nAntes de culpar a IA… ou a si mesmo…\nvai ler as regras… e testar.\n\n**Correção feita:** a ideia dizia que \"muitas vezes é a empresa se protegendo de lei\". Isso é só parte da causa. As recusas também vêm do treinamento de segurança e das políticas do modelo. Por isso o roteiro diz \"nem sempre\" e \"muitas vezes\", sem afirmar que é sempre por lei.\n\n**Ideia reservada:** \"Ninguém testa as instruções que colocou no Claude\". Gatilho sugerido: Valor direto, com CTA no Modo A.\n\n**B-roll:** tela do terminal com uma recusa da IA, depois um arquivo de instruções aberto, e por fim um teste comparando duas versões.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/skill-3"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "nada",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 10.8,
+ "erro": false,
+ "custo_estimado_usd": 0.011725000000000001,
+ "turnos": 1,
+ "tokens_entrada": 15212,
+ "tokens_saida": 1020,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels (≈55s): \"Não é você, é o filtro\"\n\n**GANCHO (0–4s)** *(olhando pra câmera, direto)*\n**FALA:** \"A IA se recusou a fazer algo normal, e você achou que o erro era seu?\"\n**TELA:** texto grande: \"A IA RECUSOU. DE NOVO.\"\n\n**PROBLEMA (4–16s)**\n**FALA:** \"Você pede um texto de venda. Ela enrola. Você pede pra mexer num arquivo seu e ela trava. Aí você acha que pediu errado.\"\n**TELA:** prints de recusas, com zoom nas frases \"não posso ajudar com isso\".\n\n**VIRADA (16–30s)**\n**FALA:** \"Só que muitas vezes a culpa nem é sua. A empresa que fez a IA está se protegendo de leis da Europa e dos Estados Unidos. Na dúvida, ela trava. Você paga o preço dessa cautela.\"\n**TELA:** bandeiras da UE e dos EUA ao lado do logo de um cadeado.\n\n**SAÍDA (30–43s)**\n**FALA:** \"Dá pra contornar. Primeiro: passe a regra pra código. O que precisa ser regra de verdade, você escreve no seu sistema, em vez de torcer pra IA obedecer. Segundo: teste um modelo aberto, que roda do seu jeito.\"\n**TELA:** dois cartões aparecendo: \"1. REGRA EM CÓDIGO\" e \"2. MODELO ABERTO\".\n\n**BÔNUS (43–54s)**\n**FALA:** \"E tem outra coisa. Você escreveu um monte de instruções pro Claude. Mas já testou se elas ajudam ou atrapalham? Quase ninguém testa. Rode com e sem, e compare.\"\n**TELA:** divisão em duas colunas: \"COM instruções\" × \"SEM instruções\".\n\n**FECHAMENTO (54–60s)**\n**FALA:** \"Antes de culpar você, descubra de quem é o filtro. Segue aqui que eu mostro como testar.\"\n**TELA:** seu @ e a frase: \"DE QUEM É O FILTRO?\"\n\n---\n\n**Legenda sugerida:** A IA recusou algo normal? Nem sempre o erro é seu. Regra em código, modelo aberto e teste das suas instruções resolvem boa parte disso. 👇 Comenta \"TESTE\" que eu mando o passo a passo.\n\n**Nota de gravação:** a frase \"muitas vezes\" na virada é de propósito. É uma tendência, não uma regra. Se quiser citar uma lei específica, como o AI Act europeu, confirme o texto antes de gravar.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/nada-2"
+}

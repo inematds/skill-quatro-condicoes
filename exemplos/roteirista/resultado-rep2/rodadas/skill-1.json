@@ -1,0 +1,14 @@
+{
+ "condicao": "skill",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 10.7,
+ "erro": false,
+ "custo_estimado_usd": 0.0412099,
+ "turnos": 1,
+ "tokens_entrada": 17930,
+ "tokens_saida": 1005,
+ "arquivos_novos": [],
+ "resposta": "## Quando a IA diz \"não\" e a culpa não é sua\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 40-50s\n\n**[0-3s]** (GANCHO, olhando para a câmera)\nA IA recusou... e a culpa não foi sua.\n\n**[3-20s]**\nVocê pediu um texto de venda.\nOu pediu pra mexer num arquivo seu.\nEla recusou. Ou enrolou.\nE você pensou: \"devo ter pedido errado.\"\nNem sempre.\nÀs vezes a recusa vem da empresa.\nEla se protege de regra e de processo.\nLei da Europa... lei dos Estados Unidos.\n\n**[20-40s]**\nIsso muda o jeito de lidar com o problema.\nPrimeiro, você para de se culpar.\nDepois, você escolhe o caminho.\nUma regra que importa de verdade?\nTira do pedido e coloca no código.\nCódigo executa a regra. Pedido só tenta convencer.\nOutra saída é usar um modelo aberto.\nVocê roda no seu computador.\nE aí você sabe o que está valendo.\n\n**[40-50s]** (Fechamento em provocação, sem CTA)\nQuarenta anos em tecnologia me ensinaram uma coisa.\nAntes de culpar a si mesmo...\ndescubra quem escreveu a regra.\n\n**Visual/b-roll:** Tela do chat com uma recusa em destaque. Depois, um terminal com um modelo aberto rodando local.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/skill-1"
+}

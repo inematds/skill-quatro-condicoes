@@ -1,0 +1,14 @@
+{
+ "condicao": "ambos",
+ "rep": 3,
+ "codigo": 0,
+ "segundos": 10.9,
+ "erro": false,
+ "custo_estimado_usd": 0.0244567,
+ "turnos": 1,
+ "tokens_entrada": 34210,
+ "tokens_saida": 925,
+ "arquivos_novos": [],
+ "resposta": "## Quando a IA diz \"não\" e a culpa não é sua\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-55s\n\n**[0-3s]** (GANCHO)\nA IA recusou seu pedido normal... e a culpa nem sempre é sua.\n\n**[3-20s]**\nVocê pediu um texto de venda.\nOu mexer num arquivo seu.\nA IA se recusou.\nE você pensou: \"o que eu fiz de errado?\"\nMuitas vezes... nada.\nBoa parte dessas travas existe pra empresa se proteger.\nProteger de quê?\nDe regras e leis da Europa e dos Estados Unidos.\nNão é sobre o seu pedido. É sobre o risco dela.\n\n**[20-40s]**\nEu tenho 40 anos em tecnologia.\nE aprendi uma coisa: regra que você não vê... você não controla.\nMas dá pra tirar a regra do modelo.\nVocê escreve a regra no seu próprio código.\nOu usa um modelo aberto, que roda do seu jeito.\nAí a decisão volta pra você.\n\n**[40-55s]**\nAgora, a parte que ninguém faz.\nVocê colocou instruções no Claude.\nVocê testou se elas ajudam?\nOu se atrapalham?\nQuase ninguém testa.\nEntão a pergunta é...\nQuantas das suas instruções estão te travando?\n\n**Visual/b-roll:** terminal mostrando uma recusa da IA; corta para um arquivo de regras em código; fecha com um teste lado a lado, com e sem as instruções.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/ambos-3"
+}

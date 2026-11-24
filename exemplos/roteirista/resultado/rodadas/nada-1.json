@@ -1,0 +1,14 @@
+{
+ "condicao": "nada",
+ "rep": 1,
+ "codigo": 0,
+ "segundos": 9.6,
+ "erro": false,
+ "custo_estimado_usd": 0.022113,
+ "turnos": 1,
+ "tokens_entrada": 15212,
+ "tokens_saida": 881,
+ "arquivos_novos": [],
+ "resposta": "# Roteiro Reels (~55s)\n\n**Título na tela:** Sua IA recusou? Talvez não seja culpa sua.\n\n---\n\n**[0–4s] GANCHO** *(olhando direto pra câmera, texto grande na tela)*\n\"A IA se recusou a escrever um texto de venda simples. E você achou que o erro era seu.\"\n\n**[4–14s] O PROBLEMA** *(corte rápido, print de uma recusa na tela)*\n\"Texto de venda. Mexer num arquivo seu. Coisa normal. A IA de fronteira trava, e muita gente conclui que pediu errado.\"\n\n**[14–26s] A VIRADA** *(texto na tela: \"Regra da empresa ≠ erro seu\")*\n\"Só que muitas vezes a trava nem é sobre você. É a empresa se protegendo. Ela tem que cuidar de lei da Europa, lei dos EUA, risco jurídico. Então ela exagera na cautela, e quem paga é você.\"\n\n**[26–40s] A SOLUÇÃO** *(mostrar duas opções na tela: \"1. Regra em código\" / \"2. Modelo aberto\")*\n\"Tem saída. Primeira: passa a regra pra código. O que precisa ser regra de verdade, você escreve no seu sistema, em vez de depender do humor do modelo. Segunda: usa um modelo aberto, que roda do seu jeito, com a regra que você escolher.\"\n\n**[40–52s] O SEGUNDO GOLPE** *(tom mais direto, aproxima da câmera)*\n\"E tem outra coisa que quase ninguém faz: testar as instruções que colocou no Claude. Você escreveu um monte de regra. Ajuda ou atrapalha? Sem teste, você não sabe. Pode estar sabotando a própria IA.\"\n\n**[52–58s] FECHAMENTO / CTA**\n\"Antes de culpar você ou a IA, teste. Quer que eu mostre como? Comenta 'TESTE' que eu te mando.\"\n\n---\n\n**Notas de gravação:**\n- Fale rápido e com energia, uma frase por corte.\n- Legenda queimada o tempo todo.\n- Mantenha o tom de \"você não está errado\". Não ataque nenhuma empresa. A mensagem é que a causa muitas vezes é jurídica, não um defeito seu.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/nada-1"
+}

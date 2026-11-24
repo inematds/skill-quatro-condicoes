@@ -1,0 +1,14 @@
+{
+ "condicao": "skill",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 11.4,
+ "erro": false,
+ "custo_estimado_usd": 0.025124800000000003,
+ "turnos": 1,
+ "tokens_entrada": 17930,
+ "tokens_saida": 1155,
+ "arquivos_novos": [],
+ "resposta": "## Quando a IA recusa, a culpa não é sua\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 40-55s\n\n**[0-3s]** (GANCHO, olhando para a câmera)\nA IA recusou um pedido normal... e você achou que errou?\n\n**[3-20s]**\nUm texto de venda. Um arquivo seu.\nPedido comum, e ela diz não.\nAí você pensa: \"o prompt tá ruim\".\nMuitas vezes... não está.\nEssas recusas vêm de regras da empresa.\nParte vem de cautela com risco legal.\nLei europeia, lei americana.\nEla se protege primeiro. Você vem depois.\n\n**[20-40s]**\nEu tenho 40 anos em tecnologia.\nE isso não é defeito seu.\nÉ política de produto.\nEntão você tem saídas.\nUma: escrever a regra em código.\nAssim, o comportamento fica sob seu controle.\nDuas: usar um modelo aberto.\nNele, as regras são suas.\nMas leia a licença antes.\n\n**[40-50s]** (Fechamento em provocação, sem CTA)\nE tem outra coisa que ninguém faz.\nVocê escreveu instruções no Claude.\nJá testou se ajudam... ou atrapalham?\nQuase ninguém testou.\n\n**Visual:** Mostre no começo a tela com uma recusa da IA. Depois mostre o terminal com uma regra em código e, por último, as instruções do Claude abertas na tela.\n\n**Nota de correção:** Troquei \"é a empresa se protegendo de lei\" por \"muitas vezes... parte vem de cautela com risco legal\". As recusas também vêm de política de segurança do produto, e dizer que é só lei seria exagero. Não afirmei isso como fato absoluto.\n\n**Reservada:** \"Teste suas instruções\" tem potencial como vídeo próprio, com o gatilho Valor direto.",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/skill-2"
+}

@@ -1,0 +1,14 @@
+{
+ "condicao": "ambos",
+ "rep": 2,
+ "codigo": 0,
+ "segundos": 12.4,
+ "erro": false,
+ "custo_estimado_usd": 0.0273467,
+ "turnos": 1,
+ "tokens_entrada": 34210,
+ "tokens_saida": 1214,
+ "arquivos_novos": [],
+ "resposta": "## A IA recusou. A culpa não é sua.\n**Gatilho:** Contrarian · **CTA:** Não · **Duração alvo:** 45-55s\n\n**[0-3s]** (GANCHO, olhando para a câmera)\nA IA recusou um texto de venda normal... e você achou que errou.\n\n**[3-20s]** (TENSÃO)\nVocê pediu algo comum.\nUm texto de venda. Mexer num arquivo seu.\nEla disse não.\nE você foi reescrever o pedido... achando que a falha era sua.\nMuitas vezes não é.\nEssas empresas têm leis para cumprir... na Europa, nos Estados Unidos.\nEntão elas travam o modelo por precaução.\nNem sempre porque o seu pedido é perigoso.\nÀs vezes é só a empresa se protegendo.\n\n**[20-40s]** (VIRADA)\nTenho 40 anos em tecnologia.\nE aprendi uma coisa: regra que você não enxerga... você não controla.\nEntão faça o contrário.\nPegue a regra que importa para o seu trabalho... e passe para código.\nCódigo você lê. Código você testa. Código é seu.\nOu use um modelo aberto... onde você enxerga o que ele faz e escolhe o que ele não faz.\nAí a recusa deixa de ser mistério.\n\n**[40-52s]** (FECHAMENTO, provocação, sem CTA)\nNa próxima vez que a IA disser não...\nantes de reescrever o pedido, pergunte:\nessa regra é minha... ou é da empresa?\n\n---\n**B-roll:** abrir com tela de chat mostrando uma recusa em zoom, depois cortar para o Nei falando. Na virada, mostrar um trecho de código com uma regra escrita e uma lista de modelos abertos.\n\n**Nota de gravação:** o roteiro diz \"muitas vezes\" e \"às vezes\" de propósito. Nem toda recusa vem de lei. Parte vem de política interna e de treinamento do modelo. Não troque por \"sempre\".\n\n**Ideias reservadas:**\n- **Ninguém testa se as instruções que colocou no Claude ajudam ou atrapalham.** Gatilho: Confissão ou Valor direto (\"rodei meu CLAUDE.md com e sem instruções e comparei\").\n- **Regra em código vs. regra em prompt.** Gatilho: Prova visual (terminal rodando os dois lado a lado).",
+ "pasta": "./exemplos/roteirista/resultado/rodadas/ambos-2"
+}
