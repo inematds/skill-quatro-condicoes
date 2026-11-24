@@ -1,4 +1,4 @@
-# Skill em 4 condições
+# Prova da Skill (skill em 4 condições)
 
 [![Skill em 4 condições](guia/assets/banner.jpg)](https://inematds.github.io/skill-quatro-condicoes/guia/)
 
@@ -12,7 +12,24 @@ Você escreveu regras no CLAUDE.md e criou skills, mas não sabe se elas ajudam 
 
 Guia completo (landing + passo a passo): **https://inematds.github.io/skill-quatro-condicoes/guia/**
 
-## Comece em três comandos
+## Como começar, sem programar
+
+Abra o Claude Code (ou o Codex) na sua pasta de trabalho e cole este pedido. A IA lê o kit, mostra o plano e só roda depois do seu sim.
+
+```text
+Leia o kit "Prova da Skill" em https://github.com/inematds/skill-quatro-condicoes (o README explica tudo, inclusive a instalação).
+Depois olhe as minhas skills e o meu CLAUDE.md e me responda em português simples:
+1. Qual skill eu mais uso e qual tarefa real serve para testá-la?
+2. Que critérios o juiz deve usar para dizer se a resposta ficou boa?
+3. Quanto tempo a prova vai levar com 3 rodadas por condição?
+Não rode nada ainda. Mostre o plano e espere eu dizer sim. Depois de rodar, me explique o veredito e o que eu deveria mudar.
+```
+
+---
+
+## Instalação técnica
+
+### Comece em três comandos
 
 ```bash
 git clone https://github.com/inematds/skill-quatro-condicoes ~/skill-quatro-condicoes

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do your instructions help AI or get in the way? Skill Proof — free kit</title>
+<meta name="description" content="The same task under 4 conditions (nothing, only CLAUDE.md, only the skill, both), then a blind score from another AI. Find out whether your skill helps, makes no difference, or gets in the way.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/skill-quatro-condicoes/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/skill-quatro-condicoes/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/skill-quatro-condicoes/guia/es/">
+<meta property="og:title" content="Skill Proof — do your instructions help AI or get in the way?">
+<meta property="og:description" content="The same task under 4 conditions (nothing, only CLAUDE.md, only the skill, both), then a blind score from another AI. Find out whether your skill helps, makes no difference, or gets in the way.">
+<meta property="og:image" content="https://inematds.github.io/skill-quatro-condicoes/guia/assets/banner.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    --fill:#FACC15; --tint:rgba(250,204,21,.12); --ok:#7CE0C6; --bad:#F0918A;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    --fill:#FACC15; --tint:#FEF9C3; --ok:#0E6B55; --bad:#A83426;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  body.light pre .k{color:#f0c070}
+  body.light nav{background:rgba(246,247,249,.85)}
+  body.light .amb{color:var(--txt);background:linear-gradient(transparent 55%,#FACC15 55%)}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  body.light main a:not(.btn),body.light footer a{color:#854d0e;text-decoration:underline;text-decoration-color:#FACC15;text-decoration-thickness:3px}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  p code,li code,td code{font-size:.9em;background:var(--bg2);border:1px solid var(--line);border-radius:6px;padding:.05em .35em}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb);white-space:nowrap}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:var(--tint)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--fill);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  nav .links a.sec{white-space:nowrap}
+  @media(max-width:1360px){nav .links a.opt{display:none}}
+  @media(max-width:860px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.18),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.1rem,4.6vw,3.3rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:44ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:66ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.95rem;margin:0}
+  .card p+p{margin-top:.6em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0;margin:.4em 0 0}
+  pre .c{color:#7d7d8a} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:28px}
+  .step>div{min-width:0}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--fill);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .5em}
+  .quem{display:inline-block;font-family:Sora;font-size:.75rem;letter-spacing:.06em;color:var(--txt);background:var(--tint);border:1px solid var(--line);border-radius:999px;padding:.1em .7em;margin-left:.5em;vertical-align:middle;font-weight:600}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:4px}
+  /* números */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+  @media(max-width:720px){.stats{grid-template-columns:1fr}}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .stat b{display:block;font:800 clamp(1.9rem,4vw,2.6rem)/1.05 Sora,sans-serif;letter-spacing:-.02em;color:var(--amb)}
+  body.light .stat b{color:var(--txt)}
+  .stat span{display:block;color:var(--mut);font-size:.93rem;margin-top:.5em}
+  .fonte{font-size:.86rem;color:var(--mut);margin-top:14px;max-width:80ch}
+  /* trocas */
+  .troca{display:grid;grid-template-columns:64px minmax(0,1fr);gap:18px;padding:26px 0;border-top:1px solid var(--line)}
+  .troca:first-of-type{border-top:none}
+  .troca .n{width:64px;height:64px;border-radius:14px;border:1px solid var(--line);background:var(--card);display:flex;align-items:center;justify-content:center;font:800 1.6rem Sora,sans-serif;color:var(--amb)}
+  body.light .troca .n{color:var(--txt);background:var(--fill);border-color:var(--fill)}
+  .troca h3{font-size:1.3rem;margin-bottom:.35em}
+  .troca p{margin:.35em 0;max-width:72ch}
+  .troca .ex{margin-top:.8em;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--fill);border-radius:10px;padding:12px 16px;font-size:.95rem;color:var(--mut);max-width:76ch}
+  .troca .ex b{color:var(--txt)}
+  @media(max-width:540px){.troca{grid-template-columns:1fr}}
+  /* três finais */
+  .vs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;max-width:900px}
+  @media(max-width:720px){.vs{grid-template-columns:1fr}}
+  .vs div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:.93rem}
+  .vs strong{display:block;font-family:Sora;margin-bottom:.25em}
+  .vs .r{display:block;margin-top:.5em;font-weight:600}
+  .vs .r.bad{color:var(--bad)} .vs .r.ok{color:var(--ok)}
+  .card ul{margin:8px 0 0;padding-left:20px}.card li{margin:5px 0}
+  /* prova */
+  .prova{background:var(--card);border:1px solid var(--amb);border-radius:16px;padding:26px 26px 22px;margin-top:6px}
+  body.light .prova{border-color:#EAB308}
+  .tl{list-style:none;margin:0;padding:0;counter-reset:t}
+  .tl li{position:relative;padding:0 0 18px 48px;counter-increment:t}
+  .tl li::before{content:counter(t);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:10px;background:var(--fill);color:#1a1206;font:800 .95rem/32px Sora,sans-serif;text-align:center}
+  .tl li::after{content:"";position:absolute;left:15px;top:36px;bottom:4px;width:2px;background:var(--line)}
+  .tl li:last-child::after{display:none}
+  .tl b{font-family:Sora}
+  blockquote{margin:6px 0 0;padding:14px 18px;border-left:3px solid var(--fill);background:var(--bg2);border-radius:0 10px 10px 0;font-size:1.02rem}
+  .prova .rod{font-size:.86rem;color:var(--mut);margin-top:14px}
+  /* parte técnica */
+  .techhead{background:var(--bg2);border-top:3px solid var(--fill);padding:58px 0 8px}
+  .techhead h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em;margin:.3em 0 0}
+  .techhead .sub{color:var(--mut);margin:.6em 0 1.2em;max-width:66ch}
+  .techzone{background:var(--bg2)}
+  .techzone .card{background:var(--card)}
+  .tbl{width:100%;border-collapse:collapse;font-size:.93rem}
+  .tbl th,.tbl td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  .tbl th{font-family:Sora;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+  .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+  @media(max-width:600px){.tbl thead{display:none} .tbl tr{display:block;border-bottom:1px solid var(--line);padding:6px 0} .tbl tr:last-child{border-bottom:none} .tbl td{display:block;border:none;padding:4px 14px}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">⚖️</span> Skill Proof</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#explicado">The benefit</a>
+    <a class="sec" href="#dia">In your day</a>
+    <a class="sec opt" href="#como">How it works</a>
+    <a class="sec" href="#recusa">When AI refuses</a>
+    <a class="sec" href="#comecar">How to start</a>
+    <a class="sec opt" href="#prova">The proof</a>
+    <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    <a class="btn" href="https://github.com/inematds/skill-quatro-condicoes" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Free kit · works with your subscription, at no extra cost</span>
+      <h1>Do your instructions help AI or get in the way? <span class="amb">Skill Proof</span> shows you</h1>
+      <p class="lead">You spent hours writing rules and skills for Claude and never knew whether they improved the results. Sometimes an old rule conflicts with a new one and the AI gets worse and reads far more text, without you noticing.</p>
+      <div class="cta">
+        <a class="btn" href="#explicado">What you get</a>
+        <a class="btn ghost" href="#comecar">How to start</a>
+      </div>
+    </div>
+    <figure><img src="../assets/banner-en.jpg" alt="Skill Proof: do your instructions help AI or get in the way?"></figure>
+  </div>
+</header>
+
+<main>
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">In a nutshell</span>
+  <p><strong>Skill Proof runs the same task four times:</strong> with nothing, only your general rules (the CLAUDE.md file, where instructions that apply to everything are kept), only the skill (the recipe you taught it for a type of task), and both together. Then an AI from another company blindly scores all four answers <strong>without knowing which is which</strong>. You find out whether the skill helps, makes no difference, or gets in the way, and whether your rules conflict with each other. It’s for people who use Claude Code or Codex and have created their own instructions. It’s free and runs with the subscription you already have.</p>
+  <figure style="margin:22px 0 0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="Skill Proof: the problem, the 4 conditions, the blind score, what we measure, when AI refuses, free at inema.club" loading="lazy" style="width:100%;display:block"></figure>
+</div></section>
+
+<section id="explicado"><div class="wrap">
+  <span class="chip">The benefit</span>
+  <h2>Before and after the <span class="amb">test</span></h2>
+  <div class="grid g2">
+    <div class="card"><h3>😩 Without the test</h3><p>You write a rule, think it improved things, and move on. Every new model changes how AI reads your instructions, and no one checks.</p><p>The rules keep piling up. One from October says one thing, one from November says the opposite, and AI is caught between them.</p></div>
+    <div class="card"><h3>😌 With the test</h3><p>In a few minutes, you get a score for each condition and a direct verdict: <strong>“the skill helps,”</strong> <strong>“it makes no difference,”</strong> or <strong>“it gets in the way.”</strong></p><p>If your rules and the skill conflict, the report flags it, and the judge explains in one sentence what influenced each score.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:16px">
+    <div class="card"><h3>🎯 Decisions backed by numbers</h3><p>Keeping, revising, or retiring a skill is no longer guesswork.</p></div>
+    <div class="card"><h3>💸 Less dead weight</h3><p>You can see how much each instruction costs in text AI reads. In our test, the general rules doubled that amount.</p></div>
+    <div class="card"><h3>🔁 With every new model</h3><p>A new model came out? Run the test again and see if your recipe still works.</p></div>
+  </div>
+</div></section>
+
+<section id="video"><div class="wrap">
+  <span class="chip">In video</span>
+  <h2>Understand it in a few minutes</h2>
+  <!-- VIDEO: entra o explicavideo do projeto quando publicado -->
+</div></section>
+
+<section id="dia"><div class="wrap">
+  <span class="chip">In your day-to-day</span>
+  <h2>How this changes your <span class="amb">day</span></h2>
+  <p class="sub">You don’t need to know how to code. You just need to have taught your AI something.</p>
+  <div class="grid g2">
+    <div class="card"><h3>✍️ Your scriptwriting skill</h3><p><strong>Today:</strong> you created a skill for writing scripts and think it makes everything better.</p><p><strong>With the test:</strong> you see the score without the skill and with it, side by side, along with the reason for each score.</p></div>
+    <div class="card"><h3>📜 Your massive CLAUDE.md file</h3><p><strong>Today:</strong> your rules file has grown for months, and no one knows what’s still useful.</p><p><strong>With the test:</strong> you find out if it helps with that task or just makes AI read twice as much.</p></div>
+    <div class="card"><h3>🆕 A new model came out</h3><p><strong>Today:</strong> you switch models and hope nothing gets worse.</p><p><strong>With the test:</strong> run all four conditions on the new model and compare it with the previous one.</p></div>
+    <div class="card"><h3>🚫 “I can’t help with that”</h3><p><strong>Today:</strong> AI refuses a normal task, and you don’t know if it’s your fault.</p><p><strong>With the test:</strong> the report counts refusals under each condition and shows whether the restriction comes from the model or your instructions.</p></div>
+  </div>
+</div></section>
+
+<section id="como"><div class="wrap">
+  <span class="chip">How it works</span>
+  <h2>A fair test, <span class="amb">without jargon</span></h2>
+  <p class="sub">It works like a blind taste test: the same dish made four ways, with an outside taster who doesn’t know which is which.</p>
+  <div class="grid g2">
+    <div class="card"><h3>🍽️ 1. Four identical dishes, four recipes</h3><p>The same task runs four times, each in a separate kitchen: <strong>with nothing</strong>, <strong>only the general rules</strong>, <strong>only the skill</strong>, and <strong>both together</strong>. No run sees what another one did.</p></div>
+    <div class="card"><h3>🙈 2. The taster doesn’t know which is which</h3><p>The answers are shuffled and labeled A, B, C, and D for an AI from another company (Codex). It scores them from 0 to 10 and gives a one-sentence reason. Only afterward does the test reveal which was which.</p></div>
+    <div class="card"><h3>🔁 3. More than once</h3><p>AI doesn’t give the same answer every time. That’s why the test runs each condition three times and shows the average and variation. If the score varies a lot, it warns you before you decide.</p></div>
+    <div class="card"><h3>📋 4. The verdict</h3><p>At the end, you get direct answers: the skill helps, makes no difference, or gets in the way; the general rules help or get in the way; and if the two together make things worse, they conflict.</p></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h3>⚠️ What the test doesn’t promise</h3><p>It measures one task at a time: a skill might help with one request and not another. The taster is also an AI and can be wrong, so an average across several runs is more useful than a single score. And the test doesn’t fix anything on its own: it shows the problem, and you decide what to do.</p></div>
+</div></section>
+
+<section id="recusa"><div class="wrap">
+  <span class="chip">When AI refuses</span>
+  <h2>Often, the restriction <span class="amb">isn’t your fault</span></h2>
+  <p class="sub">The companies behind the most advanced AI systems sell around the world and protect themselves from the strictest laws, such as Europe’s AI law and the risk of lawsuits in the United States. To avoid taking chances, they train AI to refuse when in doubt, and that restriction applies even in countries where those laws don’t apply.</p>
+  <div class="grid g3">
+    <div class="card"><h3>🔎 1. Find out where the restriction comes from</h3><p>If AI refuses even <strong>without any of your instructions</strong>, the restriction comes from the model. If it refuses only with your rules, one of them is confusing AI: find it and rewrite it.</p></div>
+    <div class="card"><h3>⚙️ 2. Move repeated steps into a program</h3><p>A task that’s always the same doesn’t need AI every time. Ask AI to write a small program <strong>once</strong> to handle that step. The program has no opinions, doesn’t refuse, and costs nothing each time you use it.</p></div>
+    <div class="card"><h3>🔓 3. Use an open model</h3><p>Some AI models run on your own computer and can be adjusted to refuse less often. The <a href="https://inematds.github.io/modelo-do-seu-jeito/guia/" target="_blank" rel="noopener">Make It Your Own Model</a> kit shows you how and how to measure before and after.</p></div>
+  </div>
+  <p class="fonte" style="margin-top:16px">Removing the model’s restriction doesn’t change the rules where you publish: you’re still responsible for what it produces.</p>
+</div></section>
+
+<section id="comecar"><div class="wrap">
+  <span class="chip">How to start</span>
+  <h2>Ask your AI to <span class="amb">run the test</span></h2>
+  <p class="sub">You don’t need to install anything by hand. AI reads the kit, picks one of your tasks, and runs the test.</p>
+  <div class="grid g3">
+    <div class="card"><h3>1. Open your AI</h3><p>Open Claude Code or Codex in the folder where you work.</p></div>
+    <div class="card"><h3>2. Paste the request below</h3><p>It tells AI to read the kit, find your skills, and suggest a test without running anything yet.</p></div>
+    <div class="card"><h3>3. Say yes and read the verdict</h3><p>It runs the four conditions and shows the report in plain English.</p></div>
+  </div>
+  <div class="pedido" style="margin-top:20px;position:relative">
+<pre id="pedidoTxt" style="white-space:pre-wrap">Read the “Skill Proof” kit at https://github.com/inematds/skill-quatro-condicoes (the README explains everything, including installation).
+Then look at my skills and my CLAUDE.md and respond in English:
+1. Which skill do I use most, and what real task can we use to test it?
+2. What criteria should the judge use to decide whether the answer is good?
+3. How long will the test take with 3 runs per condition?
+Don’t run anything yet. Show me the plan and wait for me to say yes. After running it, explain the verdict and what I should change.</pre>
+    <button class="btn" id="copiarPedido" style="margin-top:10px">Copy the request</button>
+  </div>
+  <div class="card" style="margin-top:16px"><h3>🛠️ Prefer to run it manually?</h3><p>The commands, options, and tests are in the GitHub README.</p><p><a class="btn ghost" href="https://github.com/inematds/skill-quatro-condicoes/blob/main/README.en.md#technical-installation" target="_blank" rel="noopener">View the technical installation</a></p></div>
+</div></section>
+
+<section id="prova"><div class="wrap">
+  <span class="chip">The proof</span>
+  <h2>We tested a real skill, and it <span class="amb">conflicted with the rules</span></h2>
+  <p class="sub">A real skill for writing short video scripts, tested with the real rules file of someone who uses it. Three runs per condition; Claude wrote the answers, and Codex blindly scored them on 11/23/2026.</p>
+  <div class="grid g4">
+    <div class="card"><h3>Nothing</h3><p style="font-size:2.2rem;font-weight:800;margin:6px 0">4.3</p><p class="mut">15 thousand tokens read</p></div>
+    <div class="card"><h3>General rules only</h3><p style="font-size:2.2rem;font-weight:800;margin:6px 0;color:var(--amb)">6.8</p><p class="mut">31 thousand: twice as many</p></div>
+    <div class="card"><h3>Skill only</h3><p style="font-size:2.2rem;font-weight:800;margin:6px 0">5.0</p><p class="mut">18 thousand</p></div>
+    <div class="card"><h3>Both together</h3><p style="font-size:2.2rem;font-weight:800;margin:6px 0">6.2</p><p class="mut">34 thousand, with a lower score</p></div>
+  </div>
+  <div class="prova" style="margin-top:20px">
+    <ol class="tl">
+      <li><b>Both together scored lower than the general rules alone.</b><br><span class="mut">The test flagged a conflict.</span></li>
+      <li><b>We investigated, and the conflict was real.</b><br><span class="mut">The skill said to end the video with “comment the word X and I’ll send you the link.” The newer rules prohibit asking for a word or a link. The skill had become outdated, and no one had noticed.</span></li>
+      <li><b>A single run would have misled us.</b><br><span class="mut">In an earlier test with two runs, the same condition scored 4 once and 7 the other time. That’s why the test runs each condition three times.</span></li>
+    </ol>
+    <p class="rod">“Tokens” are pieces of text that AI reads. Full report: <a href="https://github.com/inematds/skill-quatro-condicoes/blob/main/exemplos/roteirista/resultado/relatorio.md" target="_blank" rel="noopener">relatorio.md (in Portuguese)</a>.</p>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <span class="chip">Common questions</span>
+  <h2>Before you <span class="amb">start</span></h2>
+  <div class="grid g2">
+    <div class="card"><h3>Do I need to know how to code?</h3><p>No. You paste the request, AI sets up the test, you say yes, and read the verdict.</p></div>
+    <div class="card"><h3>Does it cost anything?</h3><p>The kit is free. The test uses the Claude Code and Codex subscriptions you already have, with no API key. It runs 12 short tests and one evaluation.</p></div>
+    <div class="card"><h3>Why is the judge from another company?</h3><p>So AI isn’t scoring itself. If you don’t have Codex, you can use Claude as the judge.</p></div>
+    <div class="card"><h3>Does it change my skills?</h3><p>No. Each run uses a separate copy. The test only reads and shows the results.</p></div>
+    <div class="card"><h3>Should I delete my skills from time to time?</h3><p>Testing is better than deleting. Whenever a new model comes out, run the test: keep skills that still help and revise ones that get in the way.</p></div>
+    <div class="card"><h3>Does it work with Codex?</h3><p>The runs use Claude Code. Codex acts as the judge and can also read the kit and set up the test for you.</p></div>
+  </div>
+  <p class="fonte" style="margin-top:22px">What instructions have you written for your AI without ever testing whether they help? Free at inema.club, right on the web.</p>
+</div></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Claude Code</div><div class="pill">Codex</div><div class="pill">Python 3</div><div class="pill">MIT</div>
+    <p style="margin-top:18px">Skill Proof · free at inema.club, right on the web ·
+      <a href="https://github.com/inematds/skill-quatro-condicoes">inematds/skill-quatro-condicoes</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='prova-da-skill-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+  })();
+  (function(){
+    var bt=document.getElementById('copiarPedido'), tx=document.getElementById('pedidoTxt');
+    if(!bt||!tx) return;
+    bt.addEventListener('click',function(){
+      try{ navigator.clipboard.writeText(tx.textContent).then(function(){ bt.textContent='Copied ✓'; setTimeout(function(){bt.textContent='Copy the request';},2000); }); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>
